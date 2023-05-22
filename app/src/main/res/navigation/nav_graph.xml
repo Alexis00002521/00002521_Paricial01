@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/park_ListFragment">
+
+    <fragment
+        android:id="@+id/park_ListFragment"
+        android:name="com.example.parks_parcial.ui.park.parkslist.Park_ListFragment"
+        android:label="fragment_park__list"
+        tools:layout="@layout/fragment_park__list" >
+        <action
+            android:id="@+id/action_park_ListFragment_to_park_InformationFragment"
+            app:destination="@id/park_InformationFragment" />
+        <action
+            android:id="@+id/action_park_ListFragment_to_new_ParkFragment"
+            app:destination="@id/new_ParkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/new_ParkFragment"
+        android:name="com.example.parks_parcial.ui.park.newpark.New_ParkFragment"
+        android:label="fragment_new__park"
+        tools:layout="@layout/fragment_new__park" />
+    <fragment
+        android:id="@+id/park_InformationFragment"
+        android:name="com.example.parks_parcial.ui.park.Park_InformationFragment"
+        android:label="fragment_park__information"
+        tools:layout="@layout/fragment_park__information" />
+</navigation>

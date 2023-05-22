@@ -1,4 +1,4 @@
-package com.example.parks_parcial.ui.park
+package com.example.parks_parcial.ui.park.parkslist
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

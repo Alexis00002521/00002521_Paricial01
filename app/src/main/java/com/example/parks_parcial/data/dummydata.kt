@@ -6,7 +6,7 @@ import com.example.parks_parcial.data.model.ParkModel
 val name = "EL principito"
 val location = "san salvador"
 
-var park = mutableListOf(
+var parks = mutableListOf(
     ParkModel(name, location)
 
 )
