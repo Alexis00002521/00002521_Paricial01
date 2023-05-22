@@ -2,4 +2,9 @@
     <string name="app_name">Parks_parcial</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_park_string">Name Park</string>
+    <string name="name_string">Name</string>
+    <string name="location_park_string">Location Park</string>
+    <string name="san_salvador_string">San salvador</string>
+    <string name="parks_list_string">Parks List</string>
 </resources>
