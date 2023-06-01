@@ -1,8 +1,8 @@
-package com.example.parks_parcial
+package com.example.parksparcial
 
 import android.app.Application
-import com.example.parks_parcial.data.parks
-import com.example.parks_parcial.repositories.ParkRepository
+import com.example.parksparcial.data.parks
+import com.example.parksparcial.repositories.ParkRepository
 
 class ParkReviewApplication : Application() {
     val parkRepository: ParkRepository by lazy {

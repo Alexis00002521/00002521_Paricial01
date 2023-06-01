@@ -1,8 +1,6 @@
-package com.example.parks_parcial.repositories
+package com.example.parksparcial.repositories
 
-import com.example.parks_parcial.data.model.ParkModel
-import com.example.parks_parcial.data.park
-
+import com.example.parksparcial.data.model.ParkModel
 class ParkRepository (private  val parks: MutableList<ParkModel>){
     fun getPark() = parks
 

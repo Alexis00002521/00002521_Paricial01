@@ -5,7 +5,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.example.parks_parcial.ui.park.viewmodel.ParkViewModel" />
+            type="com.example.parksparcial.ui.park.viewmodel.ParkViewModel" />
     </data>
 <androidx.constraintlayout.widget.ConstraintLayout
 

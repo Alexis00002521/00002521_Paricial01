@@ -7,4 +7,7 @@
     <string name="location_park_string">Location Park</string>
     <string name="san_salvador_string">San salvador</string>
     <string name="parks_list_string">Parks List</string>
+    <string name="park_information_string">Park Information</string>
+    <string name="new_park_string">New Park</string>
+    <string name="add_park_string">add park</string>
 </resources>

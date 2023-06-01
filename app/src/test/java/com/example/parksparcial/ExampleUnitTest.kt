@@ -1,4 +1,4 @@
-package com.example.parks_parcial
+package com.example.parksparcial
 
 import org.junit.Test
 

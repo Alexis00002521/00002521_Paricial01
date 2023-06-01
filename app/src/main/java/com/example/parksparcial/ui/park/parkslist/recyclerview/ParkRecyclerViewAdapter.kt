@@ -1,14 +1,14 @@
-package com.example.parks_parcial.ui.park.parkslist.recyclerview
+package com.example.parksparcial.ui.park.parkslist.recyclerview
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.parks_parcial.data.model.ParkModel
-
+import com.example.parksparcial.data.model.ParkModel
+import com.example.parksparcial.databinding.ParkItemBinding
 class ParkRecyclerViewAdapter (
     private val clickListener: (ParkModel) -> Unit)
     : RecyclerView.Adapter<ParkRecyclerViewHolder>()  {
-        private val movies = ArrayList<ParkModel>()
+        private val parks = ArrayList<ParkModel>()
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ParkRecyclerViewHolder {
             val binding = ParkItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -16,16 +16,18 @@ class ParkRecyclerViewAdapter (
         }
 
         override fun getItemCount(): Int {
-            return movies.size
+            return parks.size
         }
 
         override fun onBindViewHolder(holder: ParkRecyclerViewHolder, position: Int) {
-            val movie = movies[position]
-            holder.bind(movie, clickListener)
+            val park = parks[position]
+            holder.bind(park, clickListener)
         }
 
-        fun setData(moviesList: List<ParkModel>) {
-            movies.clear()
-            movies.addAll(moviesList)
+        fun setData(parksList: List<ParkModel>) {
+            parks.clear()
+            parks.addAll(parksList)
         }
     }
+
+

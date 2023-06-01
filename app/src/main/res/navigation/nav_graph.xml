@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/park_ListFragment"
-        android:name="com.example.parks_parcial.ui.park.parkslist.Park_ListFragment"
+        android:name="com.example.parksparcial.ui.park.parkslist.ParkListFragment"
         android:label="fragment_park__list"
-        tools:layout="@layout/fragment_park__list" >
+        tools:layout="@layout/fragmentparklist" >
         <action
             android:id="@+id/action_park_ListFragment_to_park_InformationFragment"
             app:destination="@id/park_InformationFragment" />
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/new_ParkFragment"
-        android:name="com.example.parks_parcial.ui.park.newpark.New_ParkFragment"
+        android:name="com.example.parksparcial.ui.park.newpark.NewParkFragment"
         android:label="fragment_new__park"
-        tools:layout="@layout/fragment_new__park" />
+        tools:layout="@layout/fragmentnewpark" />
     <fragment
         android:id="@+id/park_InformationFragment"
-        android:name="com.example.parks_parcial.ui.park.Park_InformationFragment"
+        android:name="com.example.parksparcial.ui.park.ParkInformationFragment"
         android:label="fragment_park__information"
-        tools:layout="@layout/fragment_park__information" />
+        tools:layout="@layout/fragmentparkinformation" />
 </navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_size_title">32sp</dimen>
+    <dimen name="medium_size">16dp</dimen>
+    <dimen name="standard_size">32dp</dimen>
+    <dimen name="smallGap">8dp</dimen>
+    <dimen name="size_name">32sp</dimen>
+    <dimen name="medium_gap">32dp</dimen>
+    <dimen name="location_size">24sp</dimen>
+    <dimen name="size_sdd">22sp</dimen>
+    <dimen name="noGap">0dp</dimen>
+
+</resources>

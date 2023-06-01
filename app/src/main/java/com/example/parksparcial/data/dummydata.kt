@@ -1,6 +1,6 @@
-package com.example.parks_parcial.data
+package com.example.parksparcial.data
 
-import com.example.parks_parcial.data.model.ParkModel
+import com.example.parksparcial.data.model.ParkModel
 
 //exaple data
 val name = "EL principito"

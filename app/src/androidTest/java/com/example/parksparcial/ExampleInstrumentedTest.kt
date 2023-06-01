@@ -1,4 +1,4 @@
-package com.example.parks_parcial
+package com.example.parksparcial
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

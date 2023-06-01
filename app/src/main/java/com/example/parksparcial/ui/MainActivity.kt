@@ -1,8 +1,9 @@
-package com.example.parks_parcial.ui
+package com.example.parksparcial.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.parks_parcial.R
+import com.example.parks_parcial.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
